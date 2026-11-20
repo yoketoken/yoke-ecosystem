@@ -114,6 +114,7 @@ YOKE/
 - [Roadmap](01-Foundation/roadmap.md)
 - [Decision Log](01-Foundation/decision-log.md)
 - [Whitepaper](05-Documentation/whitepaper.md)
+- [Business Strategy](01-Foundation/business-strategy.md)
 
 ## Blockchain & Token Disclaimer
 
