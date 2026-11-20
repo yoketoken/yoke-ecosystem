@@ -1,316 +1,140 @@
+# YOKE Tokenomics — Draft v0.1
+**Status:** Concept draft — not an offer, sale, investment solicitation, or final token specification  
+**Date:** 20 November 2026  
+**Language:** Indonesian / English
 
-# YOKE Tokenomics
-## Utility Token Design — Version 1.0 Draft
+## 1. Executive summary / Ringkasan
 
-**Project:** YOKE Ecosystem  
-**Token Name:** YOKE Token  
-**Symbol:** YOKE  
-**Status:** Concept / Draft  
-**Distribution Strategy:** Gradual  
-**Target Market:** Global  
+YOKE Token is proposed as a utility token for access to premium features of **YOKE Stock Analysis Bot**, the initial and sole YOKE product in this roadmap. The primary utility is redeeming tokens for subscription credit. The project does not promise price appreciation, profit, dividends, interest, or guaranteed returns.
 
-> This document describes a preliminary tokenomics proposal. It is not a public token offering, investment prospectus, or guarantee of future token utility or value.
+YOKE Token dirancang sebagai token utilitas untuk mengakses fitur premium **YOKE Stock Analysis Bot**. Fungsi utama token adalah ditukarkan menjadi kredit langganan. Proyek tidak menjanjikan kenaikan harga, keuntungan, dividen, bunga, atau imbal hasil.
 
----
+## 2. Proposed token parameters / Parameter awal
 
-# PART I — ENGLISH
+| Parameter | Proposed value | Status |
+|---|---|---|
+| Token name | YOKE Token | Proposed |
+| Ticker | YOKE | Proposed; subject to availability |
+| Maximum supply | 100,000,000 YOKE | Proposed |
+| Decimals | 18 | Proposed |
+| Supply model | Fixed supply; no post-launch mint function | Design target |
+| Network | EVM-compatible; BNB Smart Chain is a candidate | Not final |
+| Product utility | YOKE Stock Analysis Bot subscriptions | Initial scope |
+| Target market | Global, subject to jurisdictional compliance | Strategic target |
+| Distribution | Gradual, milestone-based | Proposed |
 
-## 1. Overview
+The network is intentionally not finalized. The project must compare security, wallet support, user fees, ecosystem infrastructure, and legal implications before selecting a chain.
 
-YOKE Token is proposed as a utility token within the YOKE ecosystem.
+## 3. Utility design / Desain utilitas
 
-Its primary intended purpose is to provide access-related benefits to users of YOKE products, initially focusing on YOKE Stock Analysis Bot.
+### Phase 1 — Subscription redemption
+- Users may redeem YOKE for all or part of an eligible Bot subscription.
+- The subscription price remains displayed in the product's reference currency (for example, USD or IDR where legally appropriate).
+- The amount of YOKE required is calculated using a transparent conversion methodology published by YOKE.
+- A redemption is completed only after the required on-chain transaction is confirmed and the subscription is successfully activated.
+- If activation fails after payment, a defined refund or account-credit process must apply.
 
-The token is designed around practical utility rather than promised investment returns.
+### Phase 2 — Additional discount (not enabled at launch)
+A separate loyalty discount may be considered only after real usage data exists. It must not be based on an arbitrary token threshold. Any tier, eligibility snapshot, duration, maximum discount, and funding source must be published before activation.
 
-## 2. Token Specifications
+**Recommended launch rule:** do not combine a token-payment discount with additional balance-based discounts at launch. First validate that token redemption is useful, reliable, and economically sustainable.
 
-| Parameter | Proposed Design |
-|---|---|
-| Token Name | YOKE Token |
-| Symbol | YOKE |
-| Proposed Network | BNB Smart Chain |
-| Token Standard | BEP-20 compatible |
-| Total Supply | 100,000,000 YOKE |
-| Decimals | 18 |
-| Supply Model | Fixed supply |
-| Minting | No post-deployment minting |
-| Transfer Tax | 0% |
-| Upgradeability | Non-upgradeable proposal |
+## 4. Supply allocation / Alokasi suplai
 
-Network and contract architecture remain subject to technical, security, and legal review.
+| Allocation | Share | Tokens | Purpose |
+|---|---:|---:|---|
+| Ecosystem & user incentives | 35% | 35,000,000 | Product adoption, user incentives, future utility programs |
+| Liquidity reserve | 20% | 20,000,000 | Potential market liquidity, subject to legal and market readiness |
+| Development | 15% | 15,000,000 | Product, protocol, security, and infrastructure development |
+| Treasury | 15% | 15,000,000 | Long-term operating reserve and approved ecosystem expenses |
+| Founder & core team | 10% | 10,000,000 | Long-term contributor alignment |
+| Partnerships | 5% | 5,000,000 | Strategic integrations and partnerships |
+| **Total** | **100%** | **100,000,000** | |
 
-## 3. Token Utility
+Allocation is not the same as immediate circulation. Wallet addresses, vesting schedules, release conditions, and changes must be disclosed before any public distribution.
 
-### 3.1 Premium Access
+## 5. Proposed vesting and release policy / Jadwal pelepasan
 
-Eligible token holders may receive access to selected premium features of YOKE Stock Analysis Bot.
+These are planning targets and must be finalized before deployment:
 
-Potential benefits:
-- Advanced stock analysis.
-- Additional screening features.
-- Premium market reports.
-- Enhanced analytical tools.
+- Founder & core team (10%): 12-month cliff, then linear vesting over 36 months.
+- Development (15%): 6-month cliff, then linear release over 36 months against published development budgets.
+- Partnerships (5%): milestone-based release; unused allocation remains locked.
+- Ecosystem & user incentives (35%): gradual release over at least 48 months, with published campaign budgets and eligibility rules.
+- Treasury (15%): multisignature custody and budget-based release; no discretionary single-key withdrawals.
+- Liquidity reserve (20%): no automatic launch-day unlock. Release only under a documented liquidity policy and after legal/security review.
 
-Actual features will depend on product readiness and operating costs.
+No allocation should be described as “circulating supply” until it is actually transferable and available to the market.
 
-### 3.2 Subscription Discounts
+## 6. Redemption economics / Ekonomi penukaran
 
-Eligible holders may receive discounts on qualifying subscriptions.
+A major design risk is the conversion rate between YOKE and the subscription reference price.
 
-The discount structure, token thresholds, eligibility rules, and maximum discount will be determined after product pricing and economic validation.
+Recommended safeguards:
+1. Do not promise a fixed fiat value for YOKE.
+2. Do not set a token amount for subscriptions before there is a defensible price-discovery method.
+3. Before reliable market pricing exists, use a closed beta with test tokens or non-transferable credits rather than implying that a market price exists.
+4. Once public-market pricing is considered, define the data source, averaging window, volatility limits, update frequency, rounding, minimum transaction size, and fallback behavior.
+5. Show the user the exact token amount and quote expiry before they sign.
+6. Never activate a subscription based only on a wallet balance check.
 
-Normal payment methods will remain available where supported.
+The project should not create artificial demand, guarantee liquidity, or promise buybacks.
 
-### 3.3 Utility Limitations
+## 7. Redemption token handling / Penanganan token yang ditukarkan
+
+Preferred technical design:
+- User sends tokens to a dedicated redemption contract.
+- The backend verifies the chain, contract address, recipient, amount, transaction status, confirmations, and unique transaction hash.
+- The subscription is activated only after successful verification.
+- After successful fulfillment, redeemed tokens may be burned or moved according to a publicly documented policy.
+- If fulfillment fails, a contract-controlled refund path or equivalent user-protection process must be available.
+
+The exact burn/escrow mechanism must be independently reviewed. Cross-system blockchain and Telegram activation cannot be assumed to be atomic.
+
+## 8. Distribution phases / Tahapan distribusi
+
+**Phase 0 — Research and compliance**
+- No public sale.
+- Confirm legal classification, issuer obligations, target jurisdictions, tax treatment, and permitted distribution channels.
+- Define product subscription packages and a real redemption flow.
+
+**Phase 1 — Testnet and internal testing**
+- Deploy test contracts only.
+- Test wallet connection, signature verification, redemption, duplicate-claim prevention, refunds, and bot activation.
+- Test tokens have no monetary value and must be clearly labelled as test assets.
+
+**Phase 2 — Closed utility beta**
+- Limited invited users, only after legal review.
+- No promise of exchange listing or liquidity.
+- Publish terms, risks, token contract address, and support/refund process.
+
+**Phase 3 — Broader distribution**
+- Only after product usage, security, legal, operational, and consumer-protection gates are passed.
+- Any public distribution or trading arrangement requires separate review for each relevant jurisdiction.
+
+## 9. Explicit exclusions / Hal yang tidak dijanjikan
 
 YOKE Token does not represent:
-- Company ownership or equity.
-- A guaranteed share of company profits.
-- A guaranteed return.
-- A guaranteed buyback.
-- A guaranteed market price.
-- A right to redeem tokens for a fixed monetary value.
+- Equity or ownership in YOKE or its business.
+- A claim on company revenue, profits, or assets.
+- Guaranteed returns, dividends, interest, or capital appreciation.
+- Guaranteed exchange listing, liquidity, or a stable market price.
+- A right to vote on company matters unless a separate governance framework is formally adopted.
 
-## 4. Proposed Token Allocation
+## 10. Risks / Risiko
 
-| Category | Allocation | Amount |
-|---|---:|---:|
-| Ecosystem & Community | 35% | 35,000,000 |
-| Liquidity Reserve | 20% | 20,000,000 |
-| Development | 15% | 15,000,000 |
-| Treasury | 15% | 15,000,000 |
-| Founder | 10% | 10,000,000 |
-| Partnership | 5% | 5,000,000 |
-| **Total** | **100%** | **100,000,000** |
+Users may lose some or all of the value of tokens they acquire. Token prices can be volatile; liquidity may be absent; smart contracts, wallets, bridges, and third-party infrastructure can fail or be exploited. Laws may change, and access may be restricted in certain jurisdictions. The product itself may change or cease operation. The token's utility depends on the continued availability and lawful operation of YOKE Stock Analysis Bot.
 
-All allocations are proposed and subject to revision before deployment or distribution.
+## 11. Open decisions / Keputusan yang belum final
 
-## 5. Vesting and Distribution
-
-### Ecosystem & Community
-Proposed gradual distribution over eight years.
-
-Distribution may support:
-- Product adoption.
-- Verified ecosystem contributions.
-- Community initiatives.
-- Approved development programs.
-
-### Liquidity Reserve
-Reserved for potential liquidity-related requirements.
-
-The reserve will not automatically be released at launch.
-
-Any future liquidity arrangement requires independent assessment, transparent disclosure, and applicable legal review.
-
-### Development
-Proposed four-year vesting with a six-month cliff.
-
-Intended to support long-term development and ecosystem operations.
-
-### Treasury
-Reserved for ecosystem operations and future development.
-
-Treasury management should use multisignature security and transparent reporting.
-
-### Founder
-Proposed twelve-month cliff followed by thirty-six months of gradual vesting.
-
-### Partnership
-Proposed twenty-four-month milestone-based vesting.
-
-## 6. Distribution Principles
-
-YOKE adopts a gradual distribution model.
-
-Principles:
-1. Transparent allocation.
-2. Publicly documented vesting schedules.
-3. No undisclosed token allocations.
-4. No guaranteed price appreciation.
-5. No artificial demand creation.
-6. Distribution tied to legitimate ecosystem objectives.
-
-## 7. Smart Contract Design Principles
-
-The proposed token contract should prioritize simplicity and security.
-
-Target characteristics:
-- Fixed supply.
-- No post-deployment mint function.
-- No transfer tax.
-- No blacklist function.
-- No hidden administrative privileges.
-- No upgrade mechanism.
-
-Vesting and treasury operations should be separated into dedicated contracts or appropriately secured wallet structures.
-
-All contracts require testing and independent security review before any production deployment.
-
-## 8. Risk and Compliance
-
-YOKE Token development and distribution are subject to applicable laws and regulations.
-
-Global distribution does not automatically authorize token offerings in every jurisdiction.
-
-Before any public distribution, YOKE must assess:
-- Issuer obligations.
-- Token classification.
-- Marketing and solicitation restrictions.
-- Exchange and trading requirements.
-- Consumer protection.
-- Tax obligations.
-- Data protection.
-- Smart contract security.
-
-## 9. Development Roadmap
-
-1. Finalize tokenomics.
-2. Validate actual product utility.
-3. Design contract architecture.
-4. Develop and test contracts.
-5. Conduct independent security review.
-6. Complete legal and compliance assessment.
-7. Prepare controlled utility activation.
-8. Evaluate gradual distribution.
-
-## 10. Document Status
-
-This document is a preliminary proposal.
-
-No final token allocation, public sale, token distribution, exchange listing, or mainnet deployment is authorized by this document alone.
+- Final legal issuer entity and jurisdiction.
+- Final blockchain network and contract standard.
+- Whether public transferability is necessary at initial launch.
+- Final vesting contracts and custody arrangements.
+- Subscription reference currency and conversion-price methodology.
+- Whether redeemed tokens are burned or retained in a controlled redemption vault.
+- Final legal review for Indonesia and each intended overseas market.
+- Independent smart-contract audit and incident-response plan.
 
 ---
-
-# BAGIAN II — BAHASA INDONESIA
-
-## 1. Gambaran Umum
-
-YOKE Token dirancang sebagai token utilitas dalam ekosistem YOKE.
-
-Fungsi utamanya adalah memberikan manfaat terkait akses layanan YOKE, dengan fokus awal pada YOKE Stock Analysis Bot.
-
-Token ini dirancang berdasarkan kegunaan nyata, bukan janji keuntungan investasi.
-
-## 2. Spesifikasi Token
-
-| Parameter | Rancangan |
-|---|---|
-| Nama Token | YOKE Token |
-| Simbol | YOKE |
-| Jaringan Usulan | BNB Smart Chain |
-| Standar | Kompatibel BEP-20 |
-| Total Supply | 100.000.000 YOKE |
-| Desimal | 18 |
-| Model Supply | Fixed supply |
-| Mint setelah deployment | Tidak tersedia |
-| Transfer Tax | 0% |
-| Upgradeability | Tidak dapat di-upgrade |
-
-Jaringan dan arsitektur kontrak masih harus melalui evaluasi teknis, keamanan, dan legal.
-
-## 3. Fungsi Token
-
-### 3.1 Premium Access
-
-Pemegang token yang memenuhi persyaratan dapat memperoleh akses ke fitur premium YOKE Stock Analysis Bot.
-
-Potensi fitur:
-- Analisis saham lanjutan.
-- Screening tambahan.
-- Laporan pasar premium.
-- Fitur analisis tambahan.
-
-Fitur aktual akan mengikuti kesiapan produk dan biaya operasional.
-
-### 3.2 Subscription Discount
-
-Pemegang token yang memenuhi persyaratan dapat memperoleh diskon langganan.
-
-Ambang kepemilikan token, besaran diskon, dan aturan kelayakan akan ditentukan setelah harga produk dan kelayakan ekonominya divalidasi.
-
-Metode pembayaran biasa tetap dapat digunakan selama tersedia.
-
-### 3.3 Batasan Utilitas
-
-YOKE Token bukan:
-- Kepemilikan saham perusahaan.
-- Hak atas pembagian keuntungan perusahaan.
-- Jaminan keuntungan investasi.
-- Jaminan buyback.
-- Jaminan harga pasar.
-- Hak penukaran dengan nilai uang tetap.
-
-## 4. Alokasi Token
-
-| Kategori | Persentase | Jumlah |
-|---|---:|---:|
-| Ecosystem & Community | 35% | 35.000.000 |
-| Liquidity Reserve | 20% | 20.000.000 |
-| Development | 15% | 15.000.000 |
-| Treasury | 15% | 15.000.000 |
-| Founder | 10% | 10.000.000 |
-| Partnership | 5% | 5.000.000 |
-| **Total** | **100%** | **100.000.000** |
-
-Seluruh alokasi masih berupa usulan dan dapat berubah sebelum deployment atau distribusi.
-
-## 5. Vesting dan Distribusi
-
-- Ecosystem & Community: distribusi bertahap selama delapan tahun.
-- Liquidity Reserve: cadangan untuk kebutuhan likuiditas, tidak otomatis dilepas saat peluncuran.
-- Development: vesting empat tahun dengan cliff enam bulan.
-- Treasury: digunakan untuk operasional dan pengembangan ekosistem, dengan multisig dan pelaporan transparan.
-- Founder: cliff dua belas bulan, dilanjutkan vesting bertahap selama tiga puluh enam bulan.
-- Partnership: vesting dua puluh empat bulan berdasarkan pencapaian milestone.
-
-## 6. Prinsip Distribusi
-
-1. Alokasi transparan.
-2. Jadwal vesting terdokumentasi.
-3. Tidak ada alokasi tersembunyi.
-4. Tidak menjanjikan kenaikan harga.
-5. Tidak menciptakan permintaan secara artifisial.
-6. Distribusi berdasarkan kebutuhan ekosistem yang nyata.
-
-## 7. Prinsip Smart Contract
-
-Kontrak token harus mengutamakan kesederhanaan dan keamanan.
-
-Target desain:
-- Fixed supply.
-- Tidak ada fungsi mint setelah deployment.
-- Tidak ada transfer tax.
-- Tidak ada blacklist.
-- Tidak ada hak admin tersembunyi.
-- Tidak ada mekanisme upgrade.
-
-Vesting dan treasury dikelola secara terpisah.
-
-Semua kontrak harus melalui pengujian dan peninjauan keamanan independen sebelum deployment produksi.
-
-## 8. Risiko dan Kepatuhan
-
-Pengembangan dan distribusi YOKE Token harus mengikuti hukum yang berlaku.
-
-Target pasar global tidak otomatis memberikan izin penawaran token di seluruh negara.
-
-Sebelum distribusi publik, perlu dilakukan pemeriksaan kewajiban penerbit, klasifikasi token, promosi, perdagangan, perlindungan konsumen, perpajakan, privasi, dan keamanan smart contract.
-
-## 9. Roadmap Pengembangan
-
-1. Finalisasi tokenomics.
-2. Validasi utilitas produk.
-3. Desain arsitektur smart contract.
-4. Pengembangan dan pengujian kontrak.
-5. Audit keamanan independen.
-6. Evaluasi legal dan kepatuhan.
-7. Persiapan aktivasi utilitas.
-8. Evaluasi distribusi bertahap.
-
-## 10. Status Dokumen
-
-Dokumen ini merupakan rancangan awal.
-
-Dokumen ini tidak dengan sendirinya mengizinkan alokasi final, penjualan publik, distribusi token, listing exchange, atau deployment mainnet.
+**Important:** This document is a planning draft, not legal, tax, investment, or financial advice. It is not a whitepaper approved by a regulator and must not be used as a public token-sale document without professional review.
