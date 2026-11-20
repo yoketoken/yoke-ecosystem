@@ -1,62 +1,140 @@
-# YOKE — Your Own Knowledge & Ecosystem
+# YOKE Ecosystem
 
 **Connect. Empower. Automate.**
 
-YOKE is an umbrella digital-business initiative designed to connect financial intelligence, automation, blockchain technology, and digital services in one evolving ecosystem.
+Building an integrated digital business and technology ecosystem.
 
-**YOKE adalah inisiatif bisnis digital berbentuk umbrella ecosystem yang menghubungkan financial intelligence, automation, teknologi blockchain, dan layanan digital dalam satu ekosistem yang berkembang.**
+YOKE is an umbrella business and technology initiative focused on developing practical solutions across financial technology, automation, blockchain research, and digital services.
 
-> Project status: Phase 1 — Foundation  
-> Version: 1.0-draft  
-> Documentation: Bahasa Indonesia & English
+Our goal is to connect useful technologies, empower people and businesses, and automate processes to create meaningful value.
 
-## Project direction | Arah proyek
+---
 
-- Business structure: Umbrella ecosystem
-- Target market: Indonesia first, designed for global expansion
-- Development strategy: Parallel business and technology tracks
-- Documentation: Bilingual
-- Token status: Concept only; no public launch or investment offer
+## Our Vision
 
-## Business pillars | Pilar bisnis
+To build a sustainable and interconnected digital ecosystem that creates practical value through technology, innovation, and accessible digital solutions.
 
-1. **YOKE Financial** — stock analysis, financial intelligence, and data-driven tools.
-2. **YOKE Automation** — workflow automation, AI-assisted operations, and productivity systems.
-3. **YOKE Blockchain** — blockchain research, smart-contract development, and (if justified) YOKE utility-token infrastructure.
-4. **YOKE Digital Services** — software, digital products, and technology services.
+## Our Mission
 
-## Core principles | Prinsip utama
+- Develop useful and accessible digital products.
+- Empower individuals and businesses through technology.
+- Build intelligent automation solutions.
+- Explore responsible applications of blockchain technology.
+- Create sustainable business opportunities through innovation.
 
-- Build useful products before promoting a token.
-- No guaranteed returns, price targets, or investment promises.
-- Transparent token allocation and treasury practices if a token is ever launched.
-- Security, legal review, and user protection before public distribution.
-- Open documentation and version-controlled development.
+## Business Pillars
 
-## Repository structure
+### 1. YOKE Financial
+
+Financial intelligence and technology solutions.
+
+Focus areas:
+- Stock analysis and market research tools.
+- Financial data and analytics.
+- Investment research technology.
+- Financial workflow automation.
+
+### 2. YOKE Automation
+
+Intelligent automation for individuals and businesses.
+
+Focus areas:
+- AI-assisted workflows.
+- Business process automation.
+- Digital agents and orchestration.
+- Operational efficiency tools.
+
+### 3. YOKE Blockchain
+
+Research and development of practical blockchain applications.
+
+Focus areas:
+- Blockchain infrastructure research.
+- Smart contract development.
+- Digital asset utility research.
+- Decentralized application exploration.
+
+### 4. YOKE Digital Services
+
+Software and digital solutions for modern businesses.
+
+Focus areas:
+- Website and application development.
+- Business dashboards.
+- Digital platforms.
+- Custom software solutions.
+
+---
+
+## Development Philosophy
+
+YOKE follows a product-first approach.
+
+We prioritize:
+1. Identifying real problems.
+2. Building practical solutions.
+3. Validating products with users.
+4. Establishing sustainable business models.
+5. Expanding the ecosystem responsibly.
+
+Technology should solve real problems and create measurable value.
+
+## Project Roadmap
+
+| Phase | Focus | Status |
+|---|---|---|
+| Phase 1 | Foundation and project identity | In progress |
+| Phase 1.2 | Repository preparation | In progress |
+| Phase 1.3 | Business foundation | Planned |
+| Phase 1.4 | Product strategy | Planned |
+| Phase 1.5 | Technical architecture | Planned |
+| Phase 2 | First product development | Planned |
+| Future | Ecosystem expansion | Planned |
+
+## Repository Structure
 
 ```text
 YOKE/
 ├── 01-Foundation/
-│   ├── vision-mission.md
-│   ├── business-model.md
-│   └── roadmap.md
 ├── 02-Tokenomics/
 ├── 03-Blockchain/
 │   ├── contracts/
 │   ├── test/
 │   └── deployment/
 ├── 04-Website/
-└── 05-Documentation/
-    └── whitepaper.md
+├── 05-Documentation/
+├── .gitignore
+└── README.md
 ```
 
-## Current phase | Tahap saat ini
+## Documentation
 
-Phase 1 focuses on validating the business direction, defining product priorities, documenting governance principles, and researching legal and technical feasibility. No mainnet deployment, public token sale, or exchange-listing activity is authorized by this draft.
+- [Vision & Mission](01-Foundation/vision-mission.md)
+- [Business Model](01-Foundation/business-model.md)
+- [Roadmap](01-Foundation/roadmap.md)
+- [Decision Log](01-Foundation/decision-log.md)
+- [Whitepaper](05-Documentation/whitepaper.md)
 
-Tahap 1 berfokus pada validasi arah bisnis, penentuan prioritas produk, dokumentasi prinsip tata kelola, serta riset kelayakan hukum dan teknis. Draft ini bukan persetujuan untuk deployment mainnet, penjualan token publik, atau pengajuan listing exchange.
+## Blockchain & Token Disclaimer
 
-## Disclaimer
+Blockchain and token-related initiatives are exploratory components of the broader YOKE ecosystem.
 
-This repository is a planning and development document. It is not an offer, solicitation, prospectus, investment recommendation, or promise of financial return. Any future token issuance or distribution must undergo appropriate legal, regulatory, security, and business review in each relevant jurisdiction.
+Any future token development will depend on validated utility, business requirements, security assessments, and applicable legal and regulatory requirements.
+
+No investment return is promised or guaranteed.
+
+## Language
+
+YOKE documentation is maintained in:
+- English
+- Bahasa Indonesia
+
+## Project Status
+
+**Current stage:** Foundation and early planning.
+
+This repository contains the initial project foundation and will evolve as YOKE's business strategy, products, and technology are developed.
+
+---
+
+**YOKE — Connect. Empower. Automate.**
