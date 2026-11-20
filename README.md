@@ -115,6 +115,7 @@ YOKE/
 - [Decision Log](01-Foundation/decision-log.md)
 - [Whitepaper](05-Documentation/whitepaper.md)
 - [Business Strategy](01-Foundation/business-strategy.md)
+- [YOKE Tokenomics](02-Tokenomics/tokenomics.md)
 
 ## Blockchain & Token Disclaimer
 
