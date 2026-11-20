@@ -1,121 +1,131 @@
-# YOKE — Business Model | Model Bisnis
+# YOKE Business Model
 
-**Version 1.0-draft**
+**Version:** Draft 2.0
+**Date:** 20 November 2026
 
-## 1. Business architecture | Arsitektur bisnis
+## 1. Business Overview
 
-YOKE operates as an umbrella brand. Each business pillar may become a product line or separate legal entity if scale, risk, licensing, or operational needs require it.
+YOKE is a technology initiative developing a utility-token ecosystem supported by a real digital product.
 
-YOKE beroperasi sebagai umbrella brand. Setiap pilar dapat menjadi lini produk atau badan usaha terpisah apabila skala, risiko, perizinan, atau kebutuhan operasional mengharuskannya.
+The initial ecosystem focuses on:
 
-### Pillar A — YOKE Financial
+- **YOKE Token:** Proposed utility token for premium subscription redemption.
+- **YOKE Stock Analysis Bot:** The sole initial product generating practical utility for the token.
 
-**Customer problem:** Users need accessible tools to interpret financial and market data.
+YOKE targets global users while developing its product and infrastructure incrementally.
 
-**Potential offerings:**
-- Stock-analysis tools and educational resources.
-- End-of-day market data analysis.
-- Screening, reporting, and portfolio-tracking utilities.
-- Paid software subscriptions, subject to applicable rules.
+## 2. Core Product
 
-**Revenue options:** software subscriptions, business-to-business licensing, and digital reports.
+### YOKE Stock Analysis Bot
 
-**Boundary:** Avoid personalized investment recommendations or regulated activities unless the required authorization is obtained. Clearly disclose data timing, limitations, and risks.
+A Telegram-based stock analysis service focused on Indonesian equities.
 
-### Pillar B — YOKE Automation
+Core capabilities:
+- End-of-day stock market analysis.
+- Stock screening and market insights.
+- Daily updates after market close.
+- Subscription-based premium features.
 
-**Customer problem:** Small businesses and professionals spend time on repetitive workflows.
+The service is not a brokerage, investment manager, or live trading execution platform.
 
-**Potential offerings:**
-- Workflow automation setup.
-- AI-assisted content and operations tools.
-- Reporting and notification automation.
-- Custom integrations and maintenance.
+## 3. Token Utility Business Model
 
-**Revenue options:** setup fees, monthly support, software subscriptions, and project-based services.
+### Primary utility: Premium Subscription Redemption
 
-### Pillar C — YOKE Blockchain
+Users can redeem YOKE Token to pay for eligible premium subscription packages.
 
-**Customer problem:** Some digital products may benefit from verifiable records, programmable access, or token-based utility.
+Proposed flow:
 
-**Potential offerings:**
-- Blockchain education and prototypes.
-- Smart-contract development and testing.
-- On-chain transparency dashboards.
-- A future YOKE utility-token concept, only if there is a validated use case.
+1. User connects a compatible wallet.
+2. Wallet ownership is verified through a signed message.
+3. User selects a subscription package.
+4. The system calculates the required token amount.
+5. User submits an on-chain transaction.
+6. Backend verifies the transaction.
+7. Premium subscription access is activated.
 
-**Revenue options:** development services, technical consulting, and software tools. Token issuance is not assumed to be a revenue source.
+The system must include transaction verification, duplicate-payment prevention, reconciliation, and a refund or account-credit process for failed fulfillment.
 
-**Boundary:** A token is not required for every product. Do not sell or promote a token as an investment with promised returns. Obtain legal and security reviews before any public issuance or distribution.
+### Future utility
 
-### Pillar D — YOKE Digital Services
+Additional loyalty discounts or other product-related utility may be evaluated after the initial redemption system demonstrates actual usage and sustainable economics.
 
-**Potential offerings:** websites, dashboards, digital tools, software implementation, and technical support.
+No additional utility is considered guaranteed.
 
-**Revenue options:** project fees, maintenance retainers, licensing, and subscriptions.
+## 4. Revenue Model
 
-## 2. Initial customer segments | Segmen pelanggan awal
+The initial commercial model is based on premium subscription access to YOKE Stock Analysis Bot.
 
-- Indonesian retail investors and market learners who need data tools.
-- Small businesses needing practical automation.
-- Professionals and creators seeking productivity systems.
-- Organizations needing digital implementation services.
+Potential revenue channels:
+- Premium subscription purchases.
+- Subscription payments through legally approved payment methods.
+- Token redemption for eligible subscription packages, subject to legal and operational approval.
 
-Global expansion should follow product-market validation, localization, support readiness, and jurisdiction-specific compliance.
+Token sales, speculative trading, and token-price appreciation are not assumed to be business revenue.
 
-## 3. Go-to-market | Strategi pemasaran
+## 5. Target Market
 
-1. Start with one narrow problem and one usable product.
-2. Publish demonstrations, documentation, and honest limitations.
-3. Acquire early users through educational content and direct feedback.
-4. Measure activation, retention, customer satisfaction, and willingness to pay.
-5. Expand only after repeatable demand is demonstrated.
+**Strategic target: Global**
 
-## 4. Revenue model | Sumber pendapatan
+Initial product focus:
+- Users interested in Indonesian stock-market analysis.
+- International users who follow Indonesian equities.
+- Users of blockchain-enabled digital services.
 
-Prioritize service and software revenue before any token-related activity:
-- Project-based implementation.
-- Monthly subscription.
-- Business-to-business licensing.
-- Support and maintenance.
-- Paid educational or analytical tools where legally permitted.
+Global accessibility does not remove the need to comply with local regulations. Access and distribution may need to be restricted in certain jurisdictions.
 
-## 5. Operating model | Operasional
+## 6. Distribution Strategy
 
-At the beginning, one founder may handle product, engineering, marketing, and operations. Separate responsibilities as the business grows. Use a documented approval process for spending, access credentials, customer data, and production releases.
+YOKE will follow gradual, milestone-based development.
 
-## 6. Key performance indicators | Indikator kinerja
+| Stage | Activity |
+|---|---|
+| Research | Validate product utility, token economics, and legal feasibility |
+| Testnet | Test wallet and redemption infrastructure |
+| Closed beta | Limited utility testing after required reviews |
+| Broader distribution | Consider only after product, security, and legal readiness |
 
-- Number of active users.
-- Weekly/monthly retention.
-- Conversion from free to paid.
-- Monthly recurring revenue (when applicable).
-- Customer acquisition cost.
-- Support response time.
-- Product uptime and defect rate.
-- Security incidents and resolution time.
+## 7. Cost Structure
 
-## 7. Token utility policy | Kebijakan utilitas token
+Expected cost categories:
+- Blockchain deployment and transaction fees.
+- Backend and infrastructure operations.
+- Market-data services.
+- Smart-contract security review.
+- Legal and compliance consultation.
+- Product maintenance and customer support.
 
-A future YOKE token must not be treated as the core business model. Before considering issuance, demonstrate:
-- A real product and recurring user need.
-- A clear reason a token is better than ordinary account credits or payments.
-- A transparent allocation and vesting model.
-- Independent security review.
-- Legal and regulatory assessment in every target market.
-- A plan for custody, treasury, disclosures, and user complaints.
+A zero-budget starting point means development and testing should initially use free tools and testnets. It does not mean a secure public launch can be completed at zero cost.
 
-No guaranteed yield, dividend, buyback, price support, or appreciation should be promised.
+## 8. Key Success Metrics
 
-## 8. Key risks | Risiko utama
+YOKE should measure real product and utility adoption:
 
-- Regulatory and licensing uncertainty.
-- Product-market fit and limited early capital.
-- Cybersecurity and smart-contract vulnerabilities.
-- Market-data accuracy, licensing, and latency.
-- Token concentration, liquidity, and speculation.
-- Founder dependency and operational continuity.
+- Active Stock Analysis Bot users.
+- Premium subscriber retention.
+- Successful token-redemption transactions.
+- Redemption failure rate.
+- Subscription revenue and operating costs.
+- Security incidents and unresolved support cases.
 
-## 9. First business priority | Prioritas bisnis pertama
+Token market price is not a primary product-success metric.
 
-Validate a small, useful product under YOKE Financial or YOKE Automation. Use real user feedback and revenue evidence to decide which pillar deserves investment next.
+## 9. Business Principles
+
+1. Build actual utility before distributing tokens.
+2. Keep the initial ecosystem focused on one product.
+3. Do not promise financial returns.
+4. Maintain transparent token allocation and release schedules.
+5. Prioritize user security and consumer protection.
+6. Expand only when operational and legal readiness are demonstrated.
+
+## 10. Current Scope
+
+The initial scope is intentionally limited to:
+
+- YOKE Token design and development.
+- YOKE Stock Analysis Bot integration.
+- Wallet verification and subscription redemption.
+- Required security, legal, and operational infrastructure.
+
+Other products and business pillars are outside the initial roadmap unless formally approved in a future decision.

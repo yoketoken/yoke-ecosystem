@@ -2,94 +2,129 @@
 
 **Connect. Empower. Automate.**
 
-Building an integrated digital business and technology ecosystem.
+Building practical financial technology through product innovation and blockchain utility.
 
-YOKE is an umbrella business and technology initiative focused on developing practical solutions across financial technology, automation, blockchain research, and digital services.
-
-Our goal is to connect useful technologies, empower people and businesses, and automate processes to create meaningful value.
+Membangun teknologi finansial yang bermanfaat melalui inovasi produk dan utilitas blockchain.
 
 ---
 
-## Our Vision
+## About YOKE
 
-To build a sustainable and interconnected digital ecosystem that creates practical value through technology, innovation, and accessible digital solutions.
+YOKE is a technology initiative focused on developing utility-driven blockchain solutions around real digital products.
 
-## Our Mission
+The initial ecosystem consists of two connected components:
 
-- Develop useful and accessible digital products.
-- Empower individuals and businesses through technology.
-- Build intelligent automation solutions.
-- Explore responsible applications of blockchain technology.
-- Create sustainable business opportunities through innovation.
+1. **YOKE Token** — a proposed utility token designed to support premium access and subscription redemption within the YOKE ecosystem.
+2. **YOKE Stock Analysis Bot** — the initial and sole product providing end-of-day Indonesian stock market analysis.
 
-## Business Pillars
+YOKE targets a global audience while prioritizing responsible development, practical utility, security, and regulatory compliance.
 
-### 1. YOKE Financial
+YOKE merupakan inisiatif teknologi yang berfokus pada pengembangan solusi blockchain berbasis utilitas produk digital nyata.
 
-Financial intelligence and technology solutions.
-
-Focus areas:
-- Stock analysis and market research tools.
-- Financial data and analytics.
-- Investment research technology.
-- Financial workflow automation.
-
-### 2. YOKE Automation
-
-Intelligent automation for individuals and businesses.
-
-Focus areas:
-- AI-assisted workflows.
-- Business process automation.
-- Digital agents and orchestration.
-- Operational efficiency tools.
-
-### 3. YOKE Blockchain
-
-Research and development of practical blockchain applications.
-
-Focus areas:
-- Blockchain infrastructure research.
-- Smart contract development.
-- Digital asset utility research.
-- Decentralized application exploration.
-
-### 4. YOKE Digital Services
-
-Software and digital solutions for modern businesses.
-
-Focus areas:
-- Website and application development.
-- Business dashboards.
-- Digital platforms.
-- Custom software solutions.
+Ekosistem awal terdiri dari YOKE Token dan YOKE Stock Analysis Bot sebagai satu-satunya produk awal.
 
 ---
 
-## Development Philosophy
+## Vision
 
-YOKE follows a product-first approach.
+To build a sustainable digital ecosystem where blockchain technology provides practical utility for real products and users.
 
-We prioritize:
-1. Identifying real problems.
-2. Building practical solutions.
-3. Validating products with users.
-4. Establishing sustainable business models.
-5. Expanding the ecosystem responsibly.
+Membangun ekosistem digital berkelanjutan yang memanfaatkan teknologi blockchain untuk memberikan manfaat nyata bagi produk dan pengguna.
 
-Technology should solve real problems and create measurable value.
+## Mission
 
-## Project Roadmap
+- Develop practical utility for YOKE Token.
+- Integrate blockchain technology with real digital products.
+- Build reliable and accessible financial technology.
+- Prioritize security, transparency, and responsible innovation.
+- Expand gradually based on actual product adoption.
+
+---
+
+## Ecosystem Components
+
+### 1. YOKE Token
+
+A proposed utility token for the YOKE ecosystem.
+
+**Initial utility:**
+- Redeem tokens for eligible premium subscriptions.
+- Support future product-related utility, subject to validation.
+- Enable gradual ecosystem participation.
+
+**Initial design principles:**
+- Fixed supply is the proposed model.
+- No guaranteed investment returns.
+- No promised dividends, interest, or price appreciation.
+- No staking yield at initial launch.
+- Distribution will be gradual and milestone-based.
+
+### 2. YOKE Stock Analysis Bot
+
+YOKE's initial and sole product.
+
+A Telegram-based stock analysis tool focused on the Indonesian stock market.
+
+**Core characteristics:**
+- Uses end-of-day (EoD) market data.
+- Provides stock analysis and market insights.
+- Updates after market close.
+- Offers subscription-based premium access.
+
+The bot is an analysis tool, not a brokerage, trading execution platform, or live-market data service.
+
+---
+
+## Token Utility Model
+
+The initial utility model is **Premium Subscription Redemption**.
+
+Users may redeem YOKE Token to pay for eligible premium subscription packages.
+
+Proposed redemption flow:
+
+1. Connect and verify wallet ownership.
+2. Select a premium subscription package.
+3. Receive a redemption quote.
+4. Submit the on-chain token transaction.
+5. Backend verifies the transaction.
+6. Premium access is activated after successful verification.
+
+Additional loyalty discounts may be considered in a later phase after the initial redemption model has been validated.
+
+---
+
+## Tokenomics Overview
+
+| Parameter | Proposed Design |
+|---|---|
+| Token Name | YOKE Token |
+| Symbol | YOKE |
+| Proposed Supply | 100,000,000 |
+| Decimals | 18 |
+| Supply Model | Fixed supply |
+| Initial Utility | Premium subscription redemption |
+| Target Market | Global |
+| Distribution | Gradual |
+
+These parameters are preliminary and subject to technical, economic, security, and legal review.
+
+---
+
+## Development Roadmap
 
 | Phase | Focus | Status |
 |---|---|---|
-| Phase 1 | Foundation and project identity | In progress |
-| Phase 1.2 | Repository preparation | In progress |
-| Phase 1.3 | Business foundation | Planned |
-| Phase 1.4 | Product strategy | Planned |
-| Phase 1.5 | Technical architecture | Planned |
-| Phase 2 | First product development | Planned |
-| Future | Ecosystem expansion | Planned |
+| Phase 0 | Foundation and tokenomics | In progress |
+| Phase 1 | Technical architecture and testnet prototype | Planned |
+| Phase 2 | Wallet integration and subscription redemption | Planned |
+| Phase 3 | Security and legal review | Planned |
+| Phase 4 | Closed utility beta | Planned |
+| Phase 5 | Broader distribution, subject to approval | Planned |
+
+No public mainnet launch or token sale is authorized by this roadmap.
+
+---
 
 ## Repository Structure
 
@@ -109,33 +144,59 @@ YOKE/
 
 ## Documentation
 
+### Foundation
 - [Vision & Mission](01-Foundation/vision-mission.md)
 - [Business Model](01-Foundation/business-model.md)
-- [Roadmap](01-Foundation/roadmap.md)
+- [Original Roadmap](01-Foundation/roadmap.md)
 - [Decision Log](01-Foundation/decision-log.md)
-- [Whitepaper](05-Documentation/whitepaper.md)
-- [Business Strategy](01-Foundation/business-strategy.md)
+- [Token Decision Log](01-Foundation/decision-log-token.md)
+- [Token Roadmap](01-Foundation/roadmap-token.md)
+
+### Tokenomics
 - [YOKE Tokenomics](02-Tokenomics/tokenomics.md)
 
-## Blockchain & Token Disclaimer
+### Documentation
+- [Whitepaper](05-Documentation/whitepaper.md)
+- [Whitepaper Outline](05-Documentation/whitepaper-outline.md)
+- [Token Utility & Redemption Flow](05-Documentation/token-utility-flow.md)
 
-Blockchain and token-related initiatives are exploratory components of the broader YOKE ecosystem.
+---
 
-Any future token development will depend on validated utility, business requirements, security assessments, and applicable legal and regulatory requirements.
+## Development Principles
 
-No investment return is promised or guaranteed.
+YOKE follows these principles:
+
+1. Real utility before token distribution.
+2. Product adoption before ecosystem expansion.
+3. Security before deployment.
+4. Transparency in token allocation and distribution.
+5. Regulatory compliance in every target jurisdiction.
+6. Gradual development based on measurable progress.
+
+---
+
+## Risk & Legal Disclaimer
+
+YOKE Token is a proposed utility-token project and is not presented as an investment offering.
+
+The token does not promise or guarantee:
+- Profit or investment returns.
+- Dividends or interest.
+- Token price appreciation.
+- Exchange listing or market liquidity.
+- Ownership in YOKE or its business.
+
+Token issuance, distribution, redemption, and trading will be subject to applicable laws and professional legal review in relevant jurisdictions.
+
+This repository contains preliminary development documentation, not a public offering document or investment recommendation.
+
+---
 
 ## Language
 
 YOKE documentation is maintained in:
 - English
 - Bahasa Indonesia
-
-## Project Status
-
-**Current stage:** Foundation and early planning.
-
-This repository contains the initial project foundation and will evolve as YOKE's business strategy, products, and technology are developed.
 
 ---
 

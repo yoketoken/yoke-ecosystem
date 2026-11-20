@@ -1,392 +1,368 @@
-
 # YOKE Business Strategy
-## 90-Day Business Execution Plan
+## 90-Day Token & Product Execution Plan
 
-**Project:** YOKE  
-**Document:** Business Strategy  
-**Version:** 1.0  
-**Status:** Draft — Initial Business Direction  
-**Period:** First 90 Days  
+**Project:** YOKE
+**Version:** 2.0
+**Status:** Draft — Strategic Direction
+**Execution Period:** First 90 Days
 
 ---
 
-# 1. Executive Summary
+## 1. Executive Summary
 
-YOKE is an umbrella digital business and technology ecosystem focused on building practical digital solutions through financial technology, automation, blockchain research, and digital services.
+YOKE is a digital technology project focused on building practical product utility through blockchain integration.
 
-During the first 90 days, YOKE will pursue two parallel business tracks:
+The initial ecosystem has two core components:
 
-1. **Digital Solutions & Automation:** Providing digital services, workflow automation, AI integration, dashboards, and software solutions to businesses.
-2. **Financial Technology:** Developing and validating financial intelligence products for individual users, particularly retail investors.
+1. **YOKE Token:** A proposed utility token designed to enable redemption for eligible premium services.
+2. **YOKE Stock Analysis Bot:** The initial operating product providing end-of-day Indonesian stock market analysis through Telegram.
 
-The primary objective is to secure the first paying customers and generate initial business revenue within 90 days.
+The first 90 days will focus on validating the product, developing the token infrastructure, and testing the relationship between token utility and actual subscription demand.
 
-YOKE will operate with a product-first, customer-focused, and capital-efficient approach.
+The objective is to establish a functional foundation before considering broader token distribution.
 
-# 2. Strategic Decisions
+YOKE will prioritize real usage, security, transparency, and regulatory readiness over speculative promotion.
+
+## 2. Strategic Decisions
 
 | Area | Decision |
 |---|---|
-| Business model | Dual-track strategy |
-| Target market | Businesses and individuals |
-| Geographic scope | Indonesia and global |
-| Initial budget | Zero-budget / existing resources |
-| Primary objective | First paying customers and revenue |
-| Business approach | Service revenue + product subscriptions |
-| Blockchain | Research and development |
-| Token issuance | Not included in the first 90-day priorities |
+| Ecosystem focus | YOKE Token + YOKE Stock Analysis Bot |
+| Initial product | YOKE Stock Analysis Bot |
+| Target market | Global |
+| Product market | Initially Indonesian equities |
+| Token utility | Premium subscription redemption |
+| Distribution | Gradual |
+| Blockchain | To be determined |
+| Initial budget | Rp0; use free resources where possible |
+| Commercial priority | Validate product demand and subscription revenue |
+| Public token sale | Not authorized |
 
-# 3. Business Structure
+## 3. Ecosystem Structure
 
-## 3.1 YOKE Automation & Digital Services
+### 3.1 YOKE Token
 
-**Role:** Initial service revenue engine.
+**Role:** Utility layer of the initial ecosystem.
 
-Target customers:
-- Small and medium businesses.
-- Growing companies.
-- Business owners.
-- Professionals requiring workflow improvements.
+Primary purpose:
+- Enable eligible premium subscription redemption.
+- Connect blockchain transactions with actual product access.
+- Support future utility expansion only when justified by product demand.
 
-Initial service offerings:
-- Business workflow automation.
-- AI-assisted business processes.
-- Dashboard and reporting systems.
-- Website and application development.
-- API and software integrations.
+Initial implementation priorities:
+- Tokenomics documentation.
+- Blockchain selection.
+- Smart contract development.
+- Wallet verification.
+- Transaction monitoring.
+- Secure subscription redemption.
 
-Potential revenue models:
-- Fixed-price projects.
-- Implementation fees.
-- Monthly maintenance.
-- Recurring automation service fees.
+The token must not be promoted as a guaranteed investment or a source of guaranteed returns.
 
-Initial strategy:
+### 3.2 YOKE Stock Analysis Bot
 
-Start with specific business problems instead of selling generic AI or automation services.
+**Role:** Sole initial operating product.
 
-Example:
-- Automating repetitive reporting.
-- Connecting business applications.
-- Creating management dashboards.
-- Automating customer inquiry workflows.
+The Bot provides Indonesian stock market analysis through Telegram using end-of-day data.
 
-## 3.2 YOKE Financial
+Its updates are intended to be available after market close, approximately 17:30–18:00 WIB, subject to data availability.
 
-**Role:** Digital product development and recurring revenue.
+Commercial priorities:
+- Improve product reliability.
+- Improve onboarding and usability.
+- Define free and premium features.
+- Validate subscription pricing.
+- Acquire initial users.
+- Measure retention and willingness to pay.
 
-Initial product direction:
-- YOKE Stock Analysis Bot.
-- Indonesian stock market analysis tools.
-- End-of-day market intelligence.
-- Financial data visualization.
-- Subscription-based analytical features.
+The Bot is an analytical information product, not a brokerage or live trading execution platform.
 
-Target customers:
-- Retail investors.
-- Individual stock market participants.
-- Financial data enthusiasts.
+## 4. Token Utility Strategy
 
-Potential revenue models:
-- Monthly subscriptions.
-- Annual subscriptions.
-- Premium analytical features.
+The primary utility is premium subscription redemption.
 
-Initial strategy:
+Proposed user journey:
 
-Validate the existing stock analysis product with real users before expanding its features.
+1. User selects a premium subscription.
+2. User receives a token redemption quotation.
+3. User verifies wallet ownership.
+4. User authorizes a token transfer.
+5. Backend verifies the blockchain transaction.
+6. Premium subscription is activated.
 
-The product must clearly communicate its data sources, update schedule, limitations, and analytical methodology.
+The user does not need to retain tokens after redemption.
 
-It must not promise investment returns or present historical analysis as guaranteed future performance.
+Important requirements:
+- Verify the official contract and network.
+- Verify recipient and token amount.
+- Confirm successful transactions.
+- Prevent duplicate transaction claims.
+- Maintain transaction records.
+- Provide a recovery process for failed subscription activation.
 
-## 3.3 YOKE Blockchain
+Token pricing and redemption rates remain open decisions.
 
-**Role:** Long-term technology research.
+## 5. First 90-Day Execution Plan
 
-Initial activities:
-- Blockchain infrastructure research.
-- Smart contract education and testing.
-- Security and architecture research.
-- Practical utility exploration.
+### Days 1–30: Foundation
 
-No public token sale, investment solicitation, or exchange listing is included in the first 90-day business plan.
+Documentation:
+- Finalize business model.
+- Finalize preliminary tokenomics.
+- Document token utility and redemption flow.
+- Define technical architecture.
+- Identify legal and regulatory questions.
 
-## 3.4 YOKE Digital Services
+Product:
+- Review current Bot functionality.
+- Document existing features.
+- Define premium subscription structure.
+- Identify product improvements.
+- Prepare user testing.
 
-YOKE Digital Services supports the service business by providing website, application, dashboard, and custom software development.
-
-It can share technical resources and customers with YOKE Automation.
-
-# 4. Target Customer Strategy
-
-## Business Customers
-
-Primary problems:
-- Repetitive manual work.
-- Fragmented business data.
-- Inefficient reporting.
-- Lack of operational visibility.
-- Expensive or complicated software processes.
-
-YOKE's value proposition:
-
-Practical digital systems that reduce repetitive work, improve visibility, and help businesses operate more efficiently.
-
-## Individual Customers
-
-Primary problems:
-- Difficulty processing market information.
-- Limited access to organized analytical tools.
-- Time-consuming stock research.
-- Need for structured market information.
-
-YOKE's value proposition:
-
-Accessible financial intelligence tools that help users organize and understand market information.
-
-# 5. First 90-Day Execution Plan
-
-## Days 1–30: Foundation and Validation
-
-Business services:
-- Define 2–3 specific service packages.
-- Prepare demonstration projects.
-- Identify potential business customers.
-- Start customer conversations.
-- Test pricing and customer demand.
-
-Financial product:
-- Review the existing YOKE Stock Analysis Bot.
-- Document product features and limitations.
-- Prepare a clear subscription offering.
-- Recruit initial testers.
-- Collect user feedback.
+Technical:
+- Evaluate blockchain candidates.
+- Research smart contract standards.
+- Prepare testnet development environment.
 
 Deliverables:
-- Service portfolio.
-- Initial portfolio demonstrations.
-- Product description.
-- Customer feedback records.
+- Consistent project documentation.
+- Preliminary technical architecture.
+- Product feature and subscription specification.
+- Blockchain evaluation.
 
-## Days 31–60: Market Testing
+### Days 31–60: Development and Validation
 
-Business services:
-- Contact potential customers.
-- Conduct discovery discussions.
-- Submit project proposals.
-- Attempt to close the first paid project.
+Token:
+- Develop an initial testnet contract.
+- Test token transfers.
+- Test wallet verification.
+- Develop transaction verification logic.
 
-Financial product:
-- Run a limited user testing program.
-- Improve onboarding and usability.
-- Test subscription pricing.
+Product:
+- Improve Bot onboarding.
+- Test subscription workflows.
+- Recruit initial testers.
+- Collect feedback.
 - Evaluate willingness to pay.
 
-Deliverables:
-- Qualified business leads.
-- Project proposals.
-- Product testing results.
-- Initial conversion data.
-
-## Days 61–90: First Revenue and Evaluation
-
-Business services:
-- Deliver the first paid project if secured.
-- Document implementation results.
-- Request customer feedback.
-- Explore recurring service opportunities.
-
-Financial product:
-- Launch a paid pilot if product readiness and user validation support it.
-- Monitor subscriptions and retention.
-- Improve the product based on feedback.
+Integration:
+- Develop a test redemption flow.
+- Test subscription activation.
+- Test duplicate transaction prevention.
+- Test failure recovery.
 
 Deliverables:
-- First revenue target.
-- Customer case study, where permitted.
+- Working testnet prototype.
+- Initial redemption integration.
+- Product testing report.
+- Initial user feedback.
+
+### Days 61–90: Closed Testing and Evaluation
+
+Technical:
+- Complete end-to-end testnet testing.
+- Review security weaknesses.
+- Document unresolved issues.
+- Evaluate production readiness.
+
+Product:
+- Run a controlled premium subscription pilot where operationally and legally permitted.
+- Monitor user engagement.
+- Measure subscription conversion.
+- Measure retention and product reliability.
+
+Business:
+- Evaluate subscription economics.
+- Estimate ongoing operating costs.
+- Review legal and compliance requirements.
+- Prepare the next development phase.
+
+Deliverables:
+- Testnet demonstration.
+- Redemption test report.
 - Product validation report.
-- Next-quarter business plan.
+- Security and compliance action list.
+- Next-quarter roadmap.
 
-# 6. Resource Allocation
+## 6. Key Performance Indicators
 
-Initial working allocation:
-
-| Area | Allocation |
-|---|---:|
-| Automation and Digital Services | 60% |
-| Financial Product | 40% |
-
-This is a planning allocation, not a fixed rule.
-
-Adjust it according to customer demand, available time, and actual commercial traction.
-
-Blockchain remains limited to lightweight research during this period.
-
-# 7. Key Performance Indicators
-
-The first 90 days will be evaluated using measurable commercial indicators.
-
-| KPI | Initial target |
+| Area | Initial Measurement |
 |---|---|
-| Defined service packages | 2–3 |
-| Business prospects contacted | 30 |
-| Customer discovery conversations | 10 |
-| Paid service projects | At least 1 |
-| Financial product testers | 10 |
-| Financial product feedback | Collected and documented |
-| Paying financial subscribers | Validate willingness to pay |
-| Revenue | First paid transaction |
+| Documentation | Core documents completed and consistent |
+| Smart contract | Testnet deployment and successful tests |
+| Redemption | End-to-end test transactions |
+| Security | Critical issues identified and addressed |
+| Product | Initial active testers |
+| Commercial | Willingness to pay validated |
+| Subscription | Conversion and retention measured |
+| Operations | Infrastructure and operating costs documented |
 
-These are internal execution targets, not guaranteed results.
+These are internal validation goals, not guaranteed commercial outcomes.
 
-# 8. Operating Principles
+## 7. Resource Allocation
 
-1. Customer problems come before technology.
-2. Build only what can be validated.
-3. Prefer free and low-cost infrastructure initially.
-4. Avoid unnecessary recurring expenses.
-5. Separate experimental projects from production systems.
-6. Protect customer data and credentials.
-7. Do not promise financial returns.
-8. Measure commercial results, not just development activity.
+Initial resources should prioritize:
 
-# 9. Risks and Constraints
+1. Existing product reliability.
+2. Token utility architecture.
+3. Testnet development.
+4. Security and compliance research.
+5. User testing.
+
+Avoid unnecessary paid infrastructure until the project demonstrates a clear need.
+
+A zero-budget approach is suitable for documentation, research, and early testnet experiments. It does not imply that production deployment, legal review, or independent audits can be completed without funding.
+
+## 8. Operating Principles
+
+1. Build real utility before promoting the token.
+2. Product adoption matters more than token speculation.
+3. Validate demand before expanding features.
+4. Use free and low-cost tools where practical.
+5. Never request users' private keys or seed phrases.
+6. Keep token distribution transparent.
+7. Do not promise profits, liquidity, listings, or appreciation.
+8. Complete appropriate security and legal reviews before public distribution.
+
+## 9. Risks and Constraints
 
 | Risk | Mitigation |
 |---|---|
-| Too many simultaneous projects | Prioritize two business tracks |
-| No initial customers | Conduct direct customer validation |
-| Limited capital | Use existing resources and free tools |
-| Product overdevelopment | Validate before adding features |
-| Technical complexity | Build incrementally |
-| Financial product compliance | Review applicable regulations |
-| Token speculation | Keep token issuance outside initial priorities |
+| No initial customers | Conduct structured product validation |
+| Token has no meaningful demand | Tie utility to a genuinely useful product |
+| Smart contract vulnerabilities | Testnet testing and independent review |
+| Redemption failures | Transaction reconciliation and recovery |
+| Token volatility | Transparent quotation and pricing methodology |
+| Regulatory uncertainty | Obtain jurisdiction-specific legal advice |
+| Limited capital | Prioritize low-cost development and milestones |
+| Product adoption challenges | Measure usage and retention |
 
-# 10. Success Definition
+## 10. Success Definition
 
-The first 90 days will be considered a meaningful success if YOKE:
+After 90 days, YOKE should aim to have:
 
-- Establishes a clear service offering.
-- Obtains at least one paying customer.
-- Validates demand for its financial product.
-- Establishes repeatable customer acquisition and delivery processes.
-- Has evidence to determine which business track deserves more investment.
+- A consistent project and token documentation foundation.
+- A working token testnet prototype.
+- A tested subscription redemption mechanism.
+- A validated YOKE Stock Analysis Bot product offering.
+- Initial user feedback and willingness-to-pay evidence.
+- A documented security and compliance plan.
+- A realistic next-quarter development roadmap.
 
-The objective is not to build the entire ecosystem in 90 days.
+The goal is not to launch a speculative token quickly.
 
-The objective is to establish a functioning business foundation.
+The goal is to establish a real product ecosystem where YOKE Token has a clear and verifiable purpose.
 
 ---
 
 # BAHASA INDONESIA
 
-# Strategi Bisnis YOKE
-## Rencana Eksekusi 90 Hari
+## Strategi Bisnis YOKE
+### Rencana Eksekusi Token dan Produk 90 Hari
 
 ### 1. Ringkasan Eksekutif
 
-YOKE merupakan ekosistem bisnis digital dan teknologi yang berfokus pada solusi praktis melalui teknologi finansial, otomatisasi, riset blockchain, dan layanan digital.
+YOKE berfokus pada pengembangan produk digital dengan utilitas nyata melalui integrasi blockchain.
 
-Dalam 90 hari pertama, YOKE akan menjalankan dua jalur bisnis:
+Ekosistem awal terdiri dari:
 
-1. **Digital Solutions & Automation:** Menawarkan jasa digital, otomatisasi workflow, integrasi AI, dashboard, dan pengembangan software kepada bisnis.
-2. **Financial Technology:** Mengembangkan dan memvalidasi produk financial intelligence untuk pengguna individu, khususnya investor ritel.
+1. **YOKE Token:** Token utilitas yang dirancang untuk penukaran layanan premium.
+2. **YOKE Stock Analysis Bot:** Produk operasional awal berupa analisis saham Indonesia berbasis data end-of-day melalui Telegram.
 
-Tujuan utama adalah mendapatkan pelanggan berbayar dan menghasilkan pendapatan pertama dalam 90 hari.
+Prioritas 90 hari pertama adalah memvalidasi produk, mengembangkan infrastruktur token, dan menguji integrasi antara token dengan langganan premium.
 
 ### 2. Keputusan Strategis
 
-- Strategi bisnis: Dua jalur secara paralel.
-- Target pasar: Perusahaan, UMKM, dan individu.
-- Wilayah: Indonesia dan global.
-- Modal awal: Rp0 dengan memanfaatkan sumber daya yang tersedia.
-- Target utama: Pelanggan dan pendapatan pertama.
-- Blockchain: Riset dan pengembangan.
-- Penerbitan token: Bukan prioritas dalam 90 hari pertama.
+- Fokus: YOKE Token dan YOKE Stock Analysis Bot.
+- Produk awal: YOKE Stock Analysis Bot.
+- Target pasar: Global.
+- Utilitas token: Penukaran langganan premium.
+- Distribusi: Bertahap.
+- Blockchain: Belum ditentukan.
+- Modal awal: Rp0 dengan memanfaatkan sumber daya gratis.
+- Prioritas bisnis: Validasi permintaan produk dan pendapatan langganan.
+- Penjualan token publik: Belum diizinkan.
 
-### 3. Struktur Bisnis
+### 3. Struktur Ekosistem
 
-**YOKE Automation & Digital Services**
+**YOKE Token**
 
-Menjadi mesin pendapatan jasa awal melalui:
-- Otomatisasi proses bisnis.
-- Integrasi AI.
-- Dashboard dan reporting.
-- Website dan aplikasi.
-- Integrasi API dan software.
+Menjadi lapisan utilitas untuk penukaran langganan premium, dengan prioritas pengembangan tokenomics, smart contract, verifikasi wallet, dan sistem penukaran.
 
-Pendapatan berasal dari proyek, biaya implementasi, maintenance, dan layanan berulang.
+**YOKE Stock Analysis Bot**
 
-**YOKE Financial**
+Menjadi satu-satunya produk awal YOKE.
 
-Mengembangkan produk analisis saham dan financial intelligence.
+Fokus pengembangan:
+- Keandalan Bot.
+- Pengalaman pengguna.
+- Fitur gratis dan premium.
+- Harga langganan.
+- Akuisisi pengguna.
+- Retensi pelanggan.
 
-Produk awal adalah YOKE Stock Analysis Bot dengan model pendapatan potensial berupa langganan bulanan dan tahunan.
+Bot menggunakan data end-of-day, bukan data perdagangan live.
 
-Fokus awal adalah menguji kualitas produk, pengalaman pengguna, dan kesediaan pengguna membayar.
+### 4. Strategi Utilitas Token
 
-**YOKE Blockchain**
+Pengguna dapat menggunakan YOKE Token untuk menukarkan langganan premium yang memenuhi syarat.
 
-Menjadi jalur riset teknologi jangka panjang, termasuk smart contract, infrastruktur blockchain, keamanan, dan eksplorasi utilitas.
+Alur:
+1. Memilih langganan.
+2. Mendapatkan penawaran jumlah token.
+3. Memverifikasi kepemilikan wallet.
+4. Melakukan transfer token.
+5. Sistem memverifikasi transaksi blockchain.
+6. Langganan diaktifkan.
 
-**YOKE Digital Services**
+Pengguna tidak perlu menyimpan token setelah penukaran.
 
-Mendukung pengembangan dan penyediaan solusi website, aplikasi, dashboard, serta software khusus.
+### 5. Rencana 90 Hari
 
-### 4. Rencana 90 Hari
+**Hari 1–30: Fondasi**
+- Menyelesaikan dokumentasi.
+- Menentukan arsitektur teknis.
+- Mengevaluasi blockchain.
+- Menentukan struktur langganan.
+- Menyiapkan pengujian produk.
 
-**Hari 1–30: Fondasi dan Validasi**
-- Menentukan 2–3 paket layanan.
-- Menyiapkan demo dan portofolio.
-- Mengidentifikasi calon pelanggan.
-- Mengevaluasi YOKE Stock Analysis Bot.
-- Mengumpulkan pengguna penguji.
+**Hari 31–60: Pengembangan dan Validasi**
+- Membuat smart contract testnet.
+- Mengembangkan verifikasi transaksi.
+- Menguji integrasi penukaran.
+- Merekrut pengguna penguji.
+- Mengumpulkan feedback dan menguji kesediaan membayar.
 
-**Hari 31–60: Pengujian Pasar**
-- Menghubungi calon pelanggan.
-- Melakukan diskusi kebutuhan.
-- Mengirim proposal proyek.
-- Menguji harga langganan produk financial.
-- Mengumpulkan feedback pengguna.
-
-**Hari 61–90: Pendapatan Pertama**
-- Mengupayakan penyelesaian proyek berbayar pertama.
-- Mendokumentasikan hasil proyek.
-- Menguji pilot berbayar produk financial jika sudah siap.
-- Mengevaluasi pendapatan, konversi, dan retensi.
-
-### 5. Alokasi Sumber Daya
-
-- Automation dan Digital Services: 60%.
-- Financial Product: 40%.
-
-Blockchain tetap menjadi aktivitas riset terbatas selama periode awal.
+**Hari 61–90: Pengujian dan Evaluasi**
+- Menyelesaikan pengujian end-to-end.
+- Mengevaluasi keamanan.
+- Menjalankan pilot terbatas jika telah memenuhi persyaratan.
+- Mengukur konversi dan retensi.
+- Menyusun roadmap berikutnya.
 
 ### 6. Indikator Keberhasilan
 
-- 2–3 paket layanan yang jelas.
-- 30 calon pelanggan bisnis dihubungi.
-- 10 diskusi kebutuhan pelanggan.
-- Minimal satu proyek berbayar.
-- 10 pengguna penguji produk financial.
-- Feedback produk terdokumentasi.
-- Validasi kesediaan pengguna membayar.
-
-Target tersebut merupakan sasaran internal, bukan jaminan hasil.
+- Dokumentasi proyek konsisten.
+- Prototype token berjalan di testnet.
+- Mekanisme penukaran berhasil diuji.
+- Pengujian keamanan terdokumentasi.
+- Pengguna awal memberikan feedback.
+- Kesediaan membayar tervalidasi.
+- Biaya operasional terukur.
 
 ### 7. Prinsip Pelaksanaan
 
-- Masalah pelanggan lebih penting daripada teknologi.
-- Validasi sebelum mengembangkan fitur.
-- Gunakan infrastruktur gratis atau murah.
-- Hindari pengeluaran berulang yang belum diperlukan.
-- Lindungi data dan kredensial pelanggan.
-- Jangan menjanjikan keuntungan investasi.
-- Evaluasi berdasarkan hasil bisnis.
+- Bangun utilitas nyata sebelum mempromosikan token.
+- Prioritaskan penggunaan produk daripada spekulasi.
+- Validasi permintaan sebelum menambah fitur.
+- Gunakan infrastruktur murah atau gratis jika memungkinkan.
+- Jangan meminta private key atau seed phrase pengguna.
+- Jangan menjanjikan keuntungan, likuiditas, listing, atau kenaikan harga.
+- Lakukan evaluasi keamanan dan legal sebelum distribusi publik.
 
 ### 8. Definisi Keberhasilan
 
-YOKE dianggap berhasil membangun fondasi awal jika sudah memiliki penawaran jasa yang jelas, minimal satu pelanggan berbayar, validasi permintaan produk financial, dan proses operasional yang dapat diulang.
+Dalam 90 hari, YOKE diharapkan memiliki fondasi dokumentasi yang konsisten, prototype token testnet, mekanisme penukaran yang teruji, validasi produk Bot, feedback pengguna, dan rencana keamanan serta kepatuhan.
 
-Tujuannya bukan membangun seluruh ekosistem dalam 90 hari, tetapi membuktikan bahwa YOKE dapat beroperasi sebagai bisnis nyata.
+Tujuannya bukan menerbitkan token secepat mungkin, melainkan membangun ekosistem produk nyata dengan utilitas token yang jelas.
